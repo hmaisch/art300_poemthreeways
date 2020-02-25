@@ -1,0 +1,170 @@
+body {
+    font-family: baskerville-display-pt, serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #E7F0FA;
+    margin: 0;
+    padding: 0;
+  }
+
+.header{
+    background-color: #1B3C6A;
+    width: 45vw;
+    height: 18vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}  
+
+h1{
+    text-align: left;
+    margin: 12px;
+    font-size: 5vw;
+    line-height: 12vh;
+}
+
+h2{
+    text-align: left;
+    margin: 12px;
+    font-size: 2vw;
+    line-height: 1vh;
+}
+
+.title{
+    color: white;
+  }
+
+.author{
+    color: white;
+}
+
+.poem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 14vw;
+    margin-right: 12vw;
+    font-size: 1.5vw;
+}
+
+.stanza-1{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.stanza-2{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.stanza-3{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.stanza-4{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.stanza-5{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.stanza-6{
+    padding: 10px;
+    line-height: 2vh;
+}
+
+.publish-date{
+    margin-left: 14vw;
+    padding: 10px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+  /* Phone Styles */
+  @media screen and (max-width: 767px) {
+    body {
+      background-color: #E7F0FA;
+    }
+
+    .header{
+      background-color: #1B3C6A;
+      width: 45vw;
+      height: 10vh;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }  
+
+    h1{
+      text-align: left;
+      font-size: 7vw;
+      line-height: 5vh;
+      padding-top: 5px;
+  }
+
+    .poem{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      margin-left: 15vw;
+      margin-right: 15vw;
+      font-size: 3vw;
+    }
+
+    .publish-date{
+      margin-left: 15vw;
+      padding: 10px;
+      font-size: 4vw;
+      font-weight: bold;
+    }
+
+  }
+  
+  /* Tablet Styles */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-color: #E7F0FA;
+    }
+
+    .header{
+      background-color: #1B3C6A;
+      width: 45vw;
+      height: 17vh;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }  
+
+    h1{
+      text-align: left;
+      font-size: 6vw;
+      line-height: 10vh;
+      padding-top: 7px;
+  }
+
+    h2{
+      text-align: left;
+      margin: 12px;
+      font-size: 2vw;
+      line-height: .5vh;
+}
+
+    .poem{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      font-size: 2vw;
+    }
+
+    .publish-date{
+      margin-left: 15vw;
+      padding: 10px;
+      font-size: 2vw;
+      font-weight: bold;
+    }
+
+  }
+  
